@@ -8,8 +8,69 @@
     ],
     "routes": [
       {
+        "src": "/register",
+        "dest": "index.js"
+      },
+      {
+        "src": "/create-admin",
+        "dest": "index.js"
+      },
+      {
+        "src": "/login",
+        "dest": "index.js"
+      },
+      {
+        "src": "/users",
+        "dest": "index.js"
+      },
+      {
+        "src": "/users/me",
+        "dest": "index.js"
+      },
+      {
+        "src": "/threads",
+        "dest": "index.js"
+      },
+      {
+        "src": "/threads/:threadId",
+        "dest": "index.js"
+      },
+      {
+        "src": "/threads/:threadId/comments",
+        "dest": "index.js"
+      },
+      {
+        "src": "/threads/:threadId/up-vote",
+        "dest": "index.js"
+      },
+      {
+        "src": "/threads/:threadId/down-vote",
+        "dest": "index.js"
+      },
+      {
+        "src": "/threads/:threadId/neutral-vote",
+        "dest": "index.js"
+      },
+      {
+        "src": "/threads/:threadId/comments/:commentId/up-vote",
+        "dest": "index.js"
+      },
+      {
+        "src": "/threads/:threadId/comments/:commentId/down-vote",
+        "dest": "index.js"
+      },
+      {
+        "src": "/threads/:threadId/comments/:commentId/neutral-vote",
+        "dest": "index.js"
+      },
+      {
+        "src": "/leaderboards",
+        "dest": "index.js"
+      },
+      {
         "src": "/(.*)",
         "dest": "index.js"
       }
     ]
   }
+  
